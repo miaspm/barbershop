@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Каталог</title>
+        <title>Barbershop "Borodinsky"</title>
         <link rel="stylesheet" href="styles/styles.css">
     </head>
 
@@ -17,13 +17,13 @@
                 </a>-->
                 <ul class="navigation-list">
                     <li class="navigation-item">
-                        <a class="navigation-link" href="about.html">О нас</a>
+                        <a class="navigation-link" href="about.html">About us</a>
                     </li>
                     <li class="navigation-item">
-                        <a class="navigation-link  navigation-link-current" href="catalog.html">Каталог</a>
+                        <a class="navigation-link  navigation-link-current" href="catalog.html">Shop</a>
                     </li>
                     <li class="navigation-item">
-                        <a class="navigation-link" href="faq.html">Частые вопросы</a>
+                        <a class="navigation-link" href="faq.html">FAQ</a>
                     </li>
                 </ul>
 
@@ -34,7 +34,7 @@
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M11 6.5C11 8.98528 8.98528 11 6.5 11C4.01472 11 2 8.98528 2 6.5C2 4.01472 4.01472 2 6.5 2C8.98528 2 11 4.01472 11 6.5ZM10.3347 11.7489C9.25973 12.5356 7.9341 13 6.5 13C2.91015 13 0 10.0899 0 6.5C0 2.91015 2.91015 0 6.5 0C10.0899 0 13 2.91015 13 6.5C13 7.9341 12.5356 9.25973 11.7489 10.3347L15.7071 14.2929L14.2929 15.7071L10.3347 11.7489Z" fill="#BDBDBD"/>
                                 </svg>
                             <span class="visually-hidden">
-                                Поиск
+                                Search.
                             </span>
                         </a>
                     </li>
@@ -44,22 +44,31 @@
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M11 6.5C11 8.98528 8.98528 11 6.5 11C4.01472 11 2 8.98528 2 6.5C2 4.01472 4.01472 2 6.5 2C8.98528 2 11 4.01472 11 6.5ZM10.3347 11.7489C9.25973 12.5356 7.9341 13 6.5 13C2.91015 13 0 10.0899 0 6.5C0 2.91015 2.91015 0 6.5 0C10.0899 0 13 2.91015 13 6.5C13 7.9341 12.5356 9.25973 11.7489 10.3347L15.7071 14.2929L14.2929 15.7071L10.3347 11.7489Z" fill="#BDBDBD"/>
                             </svg>   
                             <span class="visually-hidden">   
-                                Shopping Cart
+                                Shopping Cart.
                             </span> 
                         </a>
                         <div class="popover popover-cart">
                             <button class="popover-close-button button button-light">
                                 2
-                                <span class="visually-hidden">Close</span>
+                                <span class="visually-hidden">Close.</span>
                             </button>
                             <div class="popover-content">
                                 <h2 class="popover-title">Shopping Cart</h2>
                                 <ul class="cart-items-list">
                                     <li class="cart-item">
-                                        <p class="cart-item-title">Стрижка машинкой</p>
-                                        <p class="cart-item-price">800</p>
+                                        <p class="cart-item-title">
+                                            Haircut with a hair clipper
+                                        </p>
+                                        <p class="cart-item-price">20€</p>
                                         <button type="button" class="cart-item-button button">
-                                            <span class="visually-hidden">Remove from shopping cart</span>
+                                            <span class="visually-hidden">Remove from shopping cart.</span>
+                                        </button>
+                                    </li>
+                                    <li class="cart-item">
+                                        <p class="cart-item-title">Стрижка усов</p>
+                                        <p class="cart-item-price">10€</p>
+                                        <button type="button" class="cart-item-button button">
+                                            <span class="visually-hidden">Remove from shopping cart.</span>
                                         </button>
                                     </li>
                                 </ul>
@@ -72,10 +81,10 @@
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M9 2H14V14H9V16H15H16V15V1V0H15H9V2ZM4.29289 3.70711L7.53553 6.94975H0V8.94975H7.53553L4.29289 12.1924L5.70711 13.6066L10.6569 8.65685L11.364 7.94975L10.6569 7.24264L5.70711 2.29289L4.29289 3.70711Z" fill="#BDBDBD"/>
                             </svg> 
                             <span class="visually-hidden">                                   
-                                Вход
+                                Sign in.
                             </span>
                             <span>
-                                Вход
+                                Sign in
                             </span>
                         </a>
                     </li>
@@ -87,42 +96,42 @@
             <div class="page-container">
 
                 <header class="inner-header">
-                    <h1 class="inner-header-title">Каталог</h1>
+                    <h1 class="inner-header-title">Shop</h1>
                     <ul class="breadcrumbs">
                         <li class="breadcrumbs-item">
-                            <a class="breadcrumbs-link" href="index.html">Главная</a>
+                            <a class="breadcrumbs-link" href="index.html">Main</a>
                         </li>
                         <li class="breadcrumbs-item">
-                            <a class="breadcrumbs-link">Каталог</a>
+                            <a class="breadcrumbs-link">Shop</a>
                         </li>
                     </ul>
                 </header>
 
                 <section class="catalog-products">
-                    <h2 class="visually-hidden">Список товаров с фильтрами</h2>
-                    <!-- Filtr -->
+                    <h2 class="visually-hidden">Brands</h2>
+                    <!-- Filter -->
                     <form class="catalog-filter" action="" method="get">
                         <fieldset class="catalog-filter-group">
-                            <legend class="catalog-filter-item">Цена</legend>
+                            <legend class="catalog-filter-item">Price</legend>
                                 <div class="range">
                                     <div class="range-scale">
                                         <div class="range-bar" style="left: 42px; width: 136px">
-                                            <!-- Ползунок минимальной цены -->
-                                            <button class="range-toggle toggle-min">
+                                            <!-- Range toggle min -->
+                                            <button class="range-toggle toggle-min" type="button">
                                                 <span class="visually-hidden">
-                                                    Change minimum price
+                                                    Change min price
                                                 </span>
                                             </button>
-                                            <!-- Ползунок максимальной цены -->
+                                            <!-- Range toggle max -->
                                             <button class="range-toggle toggle-max" type="button">
                                                 <span class="visually-hidden">
-                                                    Change maximum price
+                                                    Change max price
                                                 </span>
                                             </button>
                                         </div>
                                     </div>
                                     
-                                    <!-- инпут с возможностью ручного ввода минимальной и максимальной цены -->
+                                    <!-- Input with an option of manual entry of the minimum and maximum price -->
                                     <div class="range-wrapper-inputs">
                                         <label class="catalog-filter-label">   
                                             from <input class="range-input" type="number" name="min-price" value="450"> €
@@ -192,41 +201,41 @@
                                     <label class="control">
                                         <input class="visually-hidden control-input" type="radio" name="product-group">
                                         <span class="control-mark"></span>
-                                        <span class="control-label">Бритвенные принадлежности</span>
+                                        <span class="control-label">Shaving accessories</span>
                                     </label>
                                  </li>
                                  <li class="catalog-filter-item">
                                     <label class="control">
                                         <input class="visually-hidden control-input" type="radio" name="product-group" checked>
                                         <span class="control-mark"></span>
-                                        <span class="control-label">Средства для ухода</span>
+                                        <span class="control-label">Care products</span>
                                     </label>
                                  </li>
                                  <li class="catalog-filter-item">
                                     <label class="control">
                                         <input class="visually-hidden control-input" type="radio" name="product-group">
                                         <span class="control-mark"></span>
-                                        <span class="control-label">Аксессуары</span>
+                                        <span class="control-label">Accessories</span>
                                     </label>
                                  </li>
                             </ul>     
 
                         </fieldset>
 
-                        <button class="button" type="submit">Показать</button>
+                        <button class="button" type="submit">Show</button>
                     </form>    
 
                     <div class="catalog-right-column">
                         <!-- Sorting -->
                         <div class="sorting-container">
                             <form class="sorting-type">
-                                <label class="visually-hidden" for="sorting">Sort by</label>
+                                <label class="visually-hidden" for="sorting">Sort by.</label>
                                 <select class="select-control" name="sorting" id="sorting">
-                                    <option value="popular">Сначала популярное</option>
-                                    <option value="cheap">Сначала дешёвое</option>
-                                    <option value="expensive">Сначала дорогое</option>
+                                    <option value="popular">Popular first</option>
+                                    <option value="cheap">Cheap first</option>
+                                    <option value="expensive">Expensive first</option>
                                 </select>  
-                                <button class="visually-hidden" type="submit"> Отсортировать продукты</button>
+                                <button class="visually-hidden" type="submit">Sort products.</button>
                             </form>  
                             <a href="#" class="card-grid-toggle">
                                 <svg width="35px" height="35px" focusable="false" version="1.1" viewBox="0 0 700 700" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -292,7 +301,7 @@
                                     <path d="m117.04 100.8h466.48v70.559h-466.48z"/>
                                     </g>
                                 </svg>
-                                <span class="visually-hidden">Показать список</span>
+                                <span class="visually-hidden">Display list.</span>
 
                             </a>
                             <a href="#" class="card-grid-toggle card-grid-toggle-current">    
@@ -309,7 +318,7 @@
                                 <path d="m466.74 396.74h163.26v163.26h-163.26z"/>
                                 </g>
                                 </svg>
-                                <span class="visually-hidden">Показать карточки</span>
+                                <span class="visually-hidden">Display cards.</span>
                             </a>
                         </div>
 
@@ -319,61 +328,61 @@
                                 <a class="product-card-image-link" href="#">
                                     <img class="product-card-image" src="images/catalog/sebastian-shampoo-1.jpg" alt="Seb Man The Boss Thickening Shampoo by Sebastian">
                                 </a>
-                                <a class="product-card-title-link" href="">
-                                    <h3 class="product-card-title ">Seb Man The Boss Thickening Shampoo by Sebastian</h3>
+                                <a class="product-card-title-link" href="#">
+                                    <h3 class="product-card-title">Seb Man The Boss Thickening Shampoo by Sebastian</h3>
                                 </a>
                                 <span class="product-card-price">5,99 €</span>
-                                <a class="button product-card-button href="#">Buy</a>
+                                <a class="button product-card-button" href="#">Buy</a>
                             </li>
                             <li class="product-card">
                                 <a class="product-card-image-link" href="#">
                                     <img class="product-card-image" src="images/catalog/kiehls-shampoo-1.jpg" alt="Nourishing Shampoo & Conditioner by Kiehl's">
                                 </a>
-                                <a class="product-card-title-link" href="">
-                                    <h3 class="product-card-title ">Nourishing Shampoo & Conditioner by Kiehl's</h3>
+                                <a class="product-card-title-link" href="#">
+                                    <h3 class="product-card-title">Nourishing Shampoo & Conditioner by Kiehl's</h3>
                                 </a>
                                 <span class="product-card-price">45 €</span>
-                                <a class="button product-card-button href="#">Buy</a>
+                                <a class="button product-card-button" href="#">Buy</a>
                             </li>
                             <li class="product-card">
                                 <a class="product-card-image-link" href="#">
                                     <img class="product-card-image" src="images/catalog/plantur39-shampoo-1.jpg" alt="Phyto-Coffein-Shampoo Color Blonde by Plantur 39">
                                 </a>
-                                <a class="product-card-title-link" href="">
-                                    <h3 class="product-card-title ">Phyto-Coffein-Shampoo Color Blonde by Plantur 39</h3>
+                                <a class="product-card-title-link" href="#">
+                                    <h3 class="product-card-title">Phyto-Coffein-Shampoo Color Blonde by Plantur 39</h3>
                                 </a>  
                                 <span class="product-card-price">11 €</span>
-                                <a class="button product-card-button href="#">Buy</a>
+                                <a class="button product-card-button" href="#">Buy</a>
                             </li>
                             <li class="product-card">
                                 <a class="product-card-image-link" href="#">
                                     <img class="product-card-image" src="images/catalog/american-crew-shampoo-1.jpg" alt="Daily Deep Moisturizing Shampoo by American Crew">
                                 </a> 
-                                <a class="product-card-title-link" href=""> 
-                                    <h3 class="product-card-title ">Daily Deep Moisturizing Shampoo by American Crew</h3>
+                                <a class="product-card-title-link" href="#"> 
+                                    <h3 class="product-card-title">Daily Deep Moisturizing Shampoo by American Crew</h3>
                                 </a>
                                 <span class="product-card-price">7,99 €</span>
-                                <a class="button product-card-button href="#">Buy</a>
+                                <a class="button product-card-button" href="#">Buy</a>
                             </li>
                             <li class="product-card">
                                 <a class="product-card-image-link" href="#">
                                     <img class="product-card-image" src="images/catalog/american-crew-cream-1.jpg" alt="Forming Cream by American Crew">
                                 </a>    
-                                <a class="product-card-title-link" href="">
-                                    <h3 class="product-card-title ">Forming Cream by American Crew</h3>
+                                <a class="product-card-title-link" href="#">
+                                    <h3 class="product-card-title">Forming Cream by American Crew</h3>
                                 </a>    
                                 <span class="product-card-price">7,99 €</span>
-                                <a class="button product-card-button href="#">Buy</a>
+                                <a class="button product-card-button" href="#">Buy</a>
                             </li>
                             <li class="product-card">
                                 <a class="product-card-image-link" href="#">
                                     <img class="product-card-image" src="images/catalog/reuzel-pomade-1.jpg" alt="Pomade Blue by Reuzel">
                                 </a>
-                                <a class="product-card-title-link" href="">
-                                    <h3 class="product-card-title ">Pomade Blue by Reuzel</h3>
+                                <a class="product-card-title-link" href="#">
+                                    <h3 class="product-card-title">Pomade Blue by Reuzel</h3>
                                 </a>
                                 <span class="product-card-price">14 €</span>
-                                <a class="button product-card-button href="#">Buy</a>
+                                <a class="button product-card-button" href="#">Buy</a>
                             </li>
                         </ul>
 
@@ -381,7 +390,7 @@
                         <ul class="pagination">
                             <li class="pagination-item">
                                 <a class="pagination-link pagination-disabled pagination-prev">
-                                    <span class="visually-hidden">Предыдущая страница</span>
+                                    <span class="visually-hidden">Previous.</span>
                                 </a>
                             </li>
                             <li class="pagination-item">
@@ -411,10 +420,10 @@
                             </li>
                             <li class="pagination-item">
                                 <a class="pagination-link pagination-next" href="#">
-                                    <span class="visually-hidden">Следующая страница</span>
+                                    <span class="visually-hidden">Next.</span>
                                 </a>
                             </li>
-                            <button class="button pagination-show-more" type="button">Показать еще</button>
+                            <button class="button pagination-show-more" type="button">Show more</button>
                         </ul>
                          
                     </div>
@@ -426,52 +435,85 @@
         <footer class="page-footer">
             <div class="page-footer-container">
                 <section class="footer-contacts">
-                    <h2 class="page-footer-title visually-hidden">Контакты</h2>
-                    <img src="footer-contacts-logo" alt="Логотип Барбершопа «Бородинский">
+                    <h2 class="page-footer-title visually-hidden">Contacts</h2>
                     <address class="footer-contacts-address">
-                        <p class="footer-contacts-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П</p>
-                        <a href="tel.88005558628">8 800 555-86-28</a>
+                        <p class="footer-contacts-text">St. Petersburg, Karpovka River Embankment, 5</p>
+                    
+                    <a class="footer-contacts-address-phone page-footer-title" href="tel.88005558628">8 800 555-86-28</a>
+                    <a class="footer-contacts-map-link page-footer-title" href="#">How to find us?</a>
                     </address>
-                    <a class="footer-contacts-map-link" href="#">Как нас найти?</a>
                 </section>
 
                 <section class="newsletter">
-                    <h2 class="page-footer-title page-footer-title">Получайте лучшие предложение</h2>
+                    <h2 class="page-footer-title">Get the best offer</h2>
                     <form class="newsletter-form" action="#" method="post">
                         <p class="newsletter-email">
-                            <label class="visually-hidden" for="newsletter-email">Email</label>
-                            <input class="field" placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required>
+                            <label class="visually-hidden" for="newsletter-email">Email.</label>
+                            <input class="field error" placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required>
                         </p>
                         <button class="button newsletter-button" type="submit" >
-                            <span class="visually-hidden">Отправить</span>
+                            <span class="visually-hidden">Send.</span>
                         </button>
                     </form>               
                 </section>
 
                 <section class="footer-social">
-                    <h2 class="page-footer-title page-footer-title">Давайте дружить</h2>
+                    <h2 class="page-footer-title page-footer-title">Follow us</h2>
                     <ul class="footer-social-list">
                         <li class="footer-social-item">
                             <a class="button" href="#">
-                                <span class="visually-hidden">Твиттер</span>
+                                <span class="visually-hidden">Twitter.</span>
                             </a>
                         </li>
                         <li class="footer-social-item">
                             <a class="button" href="#">
-                                <span class="visually-hidden">Вконтакте</span>
+                                <span class="visually-hidden">Facebook.</span>
                             </a>
                         </li>
                         <li class="footer-social-item">
                             <a class="button" href="#">
-                                <span class="visually-hidden">Инстаграм</span>
+                                <span class="visually-hidden">Instagram.</span>
                             </a>
                         </li>
                     </ul>
-                    <p class="about-text">Сделано в <a class="htmlacademy-link" href="#">.html academy</a> 
+                    <p class="about-text">Made in <a class="htmlacademy-link" href="#">.html academy</a> 
                     </p>
                 </section>
             </div>
         </footer>
+
+        <!-- Modal window -->
+        <!-- Add class="modal-container-close" here to close -->
+        <div class="modal-container modal-container-close">
+            <div class="modal modal-auth">
+                <button class="modal-close-button">
+                    <span class="visually-hidden">Close.</span>
+                </button>
+                <section class="modal-content">
+                    <h2 class="modal-title">My account</h2>
+                    <form class="auth-form" action="" method="post">
+                        <p class="field-group">
+                            <label class="visually-hidden" for="auth-login">E-mail</label>
+                            <input class="auth-form-field field" type="text" id="auth-login" name="auth-login" placeholder="E-mail">
+                        </p>
+                        <p class="field-group">
+                            <label class="visually-hidden" for="auth-password">Password</label>
+                            <input class="auth-form-field field" type="password" id="auth-password" name="auth-password" placeholder="Password">
+                        </p>
+                        <p class="auth-form-user-options">
+                            <label class="auth-form-checkbox control">
+                                <input class="visually-hidden control-input" type="checkbox" name="firm-store">
+                                <span class="control-mark"></span>
+                                <span class="control-label">Remember me</span>
+                            </label>
+                            <a class="auth-form-recovery" href="#">Forgot password?</a>
+                        </p>
+                        <button class="button auth-form-button" type="submit">Сonfirm</button>
+                        <a class="button auth-form-register" href="#">Sign up</a>
+                    </form>
+                </section>
+            </div>
+        </div>
     </body>
 
 </html>

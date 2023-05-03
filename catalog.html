@@ -12,9 +12,6 @@
         <!-- Header -->
         <header class="page-header">
             <nav class="page-navigation">
-                <!--<a class="navigation-logo" href="#">
-                    <img class="page-header-logo" crc="" alt="Logo" hidden>
-                </a>-->
                 <ul class="navigation-list">
                     <li class="navigation-item">
                         <a class="navigation-link" href="about.html">About us</a>
@@ -30,9 +27,7 @@
                 <ul class="navigation-list navigation-user">
                     <li class="navigation-item">
                         <a class="navigation-link" href="#">
-                                <svg class="navigation-icon" aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11 6.5C11 8.98528 8.98528 11 6.5 11C4.01472 11 2 8.98528 2 6.5C2 4.01472 4.01472 2 6.5 2C8.98528 2 11 4.01472 11 6.5ZM10.3347 11.7489C9.25973 12.5356 7.9341 13 6.5 13C2.91015 13 0 10.0899 0 6.5C0 2.91015 2.91015 0 6.5 0C10.0899 0 13 2.91015 13 6.5C13 7.9341 12.5356 9.25973 11.7489 10.3347L15.7071 14.2929L14.2929 15.7071L10.3347 11.7489Z" fill="#BDBDBD"/>
-                                </svg>
+                            <img class="navigation-icon" src="images/header/search.svg"/>
                             <span class="visually-hidden">
                                 Search.
                             </span>
@@ -40,13 +35,12 @@
                     </li>
                     <li class="navigation-item">
                         <a class="navigation-link" href="#">
-                            <svg class="navigation-icon" aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M11 6.5C11 8.98528 8.98528 11 6.5 11C4.01472 11 2 8.98528 2 6.5C2 4.01472 4.01472 2 6.5 2C8.98528 2 11 4.01472 11 6.5ZM10.3347 11.7489C9.25973 12.5356 7.9341 13 6.5 13C2.91015 13 0 10.0899 0 6.5C0 2.91015 2.91015 0 6.5 0C10.0899 0 13 2.91015 13 6.5C13 7.9341 12.5356 9.25973 11.7489 10.3347L15.7071 14.2929L14.2929 15.7071L10.3347 11.7489Z" fill="#BDBDBD"/>
-                            </svg>   
-                            <span class="visually-hidden">   
-                                Shopping Cart.
-                            </span> 
+                            <img class="navigation-icon" src="images/header/shopping-basket-pale.png"/>
+                            <span class="visually-hidden">
+                                Search.
+                            </span>
                         </a>
+                        <!--Add class "popover-open" to open popover with shopping cart-->
                         <div class="popover popover-cart">
                             <button class="popover-close-button button button-light">
                                 2
@@ -77,9 +71,7 @@
                     </li>
                     <li class="navigation-item">
                         <a class="navigation-link" href="#">                       
-                            <svg class="navigation-icon navigation-link-login" aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9 2H14V14H9V16H15H16V15V1V0H15H9V2ZM4.29289 3.70711L7.53553 6.94975H0V8.94975H7.53553L4.29289 12.1924L5.70711 13.6066L10.6569 8.65685L11.364 7.94975L10.6569 7.24264L5.70711 2.29289L4.29289 3.70711Z" fill="#BDBDBD"/>
-                            </svg> 
+                            <img class="navigation-icon" src="images/header/login.svg"/>
                             <span class="visually-hidden">                                   
                                 Sign in.
                             </span>
@@ -99,7 +91,7 @@
                     <h1 class="inner-header-title">Shop</h1>
                     <ul class="breadcrumbs">
                         <li class="breadcrumbs-item">
-                            <a class="breadcrumbs-link" href="index.html">Main</a>
+                            <a class="breadcrumbs-link current-page" href="index.html">Main</a>
                         </li>
                         <li class="breadcrumbs-item">
                             <a class="breadcrumbs-link">Shop</a>
@@ -108,24 +100,24 @@
                 </header>
 
                 <section class="catalog-products">
-                    <h2 class="visually-hidden">Brands</h2>
+                    <h2 class="visually-hidden">Brands.</h2>
                     <!-- Filter -->
                     <form class="catalog-filter" action="" method="get">
                         <fieldset class="catalog-filter-group">
-                            <legend class="catalog-filter-item">Price</legend>
+                            <legend class="visually-hidden catalog-filter-item">Price.</legend>
                                 <div class="range">
                                     <div class="range-scale">
                                         <div class="range-bar" style="left: 42px; width: 136px">
                                             <!-- Range toggle min -->
                                             <button class="range-toggle toggle-min" type="button">
                                                 <span class="visually-hidden">
-                                                    Change min price
+                                                    Change min price.
                                                 </span>
                                             </button>
                                             <!-- Range toggle max -->
                                             <button class="range-toggle toggle-max" type="button">
                                                 <span class="visually-hidden">
-                                                    Change max price
+                                                    Change max price.
                                                 </span>
                                             </button>
                                         </div>
@@ -435,7 +427,7 @@
         <footer class="page-footer">
             <div class="page-footer-container">
                 <section class="footer-contacts">
-                    <h2 class="page-footer-title visually-hidden">Contacts</h2>
+                    <h2 class="page-footer-title visually-hidden">Contacts.</h2>
                     <address class="footer-contacts-address">
                         <p class="footer-contacts-text">St. Petersburg, Karpovka River Embankment, 5</p>
                     
@@ -449,7 +441,8 @@
                     <form class="newsletter-form" action="#" method="post">
                         <p class="newsletter-email">
                             <label class="visually-hidden" for="newsletter-email">Email.</label>
-                            <input class="field error" placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required>
+                            <!-- Add <"class="error"> into the <input> down below in case of an error -->
+                            <input class="field" placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required>
                         </p>
                         <button class="button newsletter-button" type="submit" >
                             <span class="visually-hidden">Send.</span>
@@ -458,25 +451,25 @@
                 </section>
 
                 <section class="footer-social">
-                    <h2 class="page-footer-title page-footer-title">Follow us</h2>
+                    <h2 class="page-footer-title">Follow us</h2>
                     <ul class="footer-social-list">
                         <li class="footer-social-item">
-                            <a class="button" href="#">
+                            <a class="button footer-social-link twitter" href="https://twitter.com/">
                                 <span class="visually-hidden">Twitter.</span>
                             </a>
                         </li>
                         <li class="footer-social-item">
-                            <a class="button" href="#">
+                            <a class="button footer-social-link facebook" href="https://www.facebook.com/">
                                 <span class="visually-hidden">Facebook.</span>
                             </a>
                         </li>
                         <li class="footer-social-item">
-                            <a class="button" href="#">
+                            <a class="button footer-social-link instagram" href="https://www.instagram.com/">
                                 <span class="visually-hidden">Instagram.</span>
                             </a>
                         </li>
                     </ul>
-                    <p class="about-text">Made in <a class="htmlacademy-link" href="#">.html academy</a> 
+                    <p class="about-text">Made in <a class="htmlacademy-link" href="#">html academy</a> 
                     </p>
                 </section>
             </div>
